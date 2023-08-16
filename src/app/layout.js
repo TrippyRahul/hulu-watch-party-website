@@ -14,9 +14,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" type="image/x-icon" href="/brand-logo.png" />
-        <link rel="canonical" href="https://www.huluwatchparty.com/" />
+        <link rel="canonical" href="https://www.huluwatchparty.co/" />
 
-        <meta property="og:url" content="https://www.huluwatchparty.com/" />
+        <meta property="og:url" content="https://www.huluwatchparty.co/" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
@@ -29,14 +29,14 @@ a fantastic way to binge movies together.."
         />
         <meta
           property="og:image"
-          content="https://www.huluwatchparty.com/brand-logo.png"
+          content="https://www.huluwatchparty.co/brand-logo.png"
         />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="huluwatchparty.com" />
+        <meta property="twitter:domain" content="huluwatchparty.co" />
         <meta
           property="twitter:url"
-          content="https://www.huluwatchparty.com/"
+          content="https://www.huluwatchparty.co/"
         />
         <meta
           name="twitter:title"
@@ -49,7 +49,7 @@ a fantastic way to binge movies together.."
         />
         <meta
           name="twitter:image"
-          content="https://www.huluwatchparty.com/brand-logo.png"
+          content="https://www.huluwatchparty.co/brand-logo.png"
         />
       </head>
       <body>
