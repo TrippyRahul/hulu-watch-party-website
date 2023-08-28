@@ -14,42 +14,58 @@ const Schema = () => {
               mainEntity: [
                 {
                   "@type": "Question",
-                  name: "Does hbo max have watch party?",
+                  name: "How to watch your favorite content on this extension?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Yes, it has a party.",
+                    text: "It is a very simple and quick process, it’s just you need to install the extension. It synchronizes the playback and allows you to have incredible features like chat, audio, and video calls. So, without hassle, you can now discuss your favorite part while watching a movie together.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Can you screen share hbo max?",
+                  name: "Can two people watch Hulu at the same time?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Yes, while using this tool you can hbo max screen share with your close ones.",
+                    text: "Yes, with our extension, two people can watch at the same time.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "How to screenshare hbo max?",
+                  name: "How to watch party on hulu?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "To screen share, download the extension and use a screen-sharing application or feature on your device during playback and let others view the content in real-time. Please ensure you comply with it’s terms of service and any copyright regulations when sharing content",
+                    text: "The process is straightforward and easy. Install the extension and log in to your account. Then, open and choose the content you want to watch. If you prefer, you can create your own watch party and share the unique URL with your friends and family. This way, everyone can synchronize their playback and chat together while enjoying the content simultaneously. It's a simple and convenient way to watch movies and shows with your loved ones, no matter where they are.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "How to watch party hbo Max? ",
+                  name: "How to watch Hulu with friends?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Install the extension on your browser. Here, you will get a watch party feature to join and enjoy synchronized playback and chat or you can even make an audio and video call while watching movies or shows together in real time. It’s just you need to have your valid account to start the process. ",
+                    text: "To stream with friends, just install the extension add it to Chrome then activate it. After logging in to your account you can share the URL line with your friends to synchronize playback and chat while watching a movie.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "How to watch hbo max together?",
+                  name: "Can you share your screen with your screen share Hulu?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "To watch it together, use the Watch Party feature on the platform, invite friends or family to join, and enjoy synchronized viewing and chat for a shared streaming experience.",
+                    text: "Yes, you can definitely share your screen with our extension and enjoy Hulu shareplay.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Can you share Hulu account?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "With our extension, you can share your valid account with your friends.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Does it has watch party?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "With our extension, it offers a watch party feature, allowing you to enjoy watching shows and movies together with your friends in a group.",
                   },
                 },
               ],

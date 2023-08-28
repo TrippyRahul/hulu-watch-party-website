@@ -14,11 +14,10 @@ const Favorite = () => {
               </div>
               <div className={styles.desc}>
                 <p>
-                  Have a fantastic showtime on it with your loved ones! Just log
-                  in together and invite your friends. This extension lets you
-                  watch shows and movies simultaneously and have audio and video
-                  calls while you enjoy it. Enjoy fast buffering and HD video
-                  quality on your desktop.
+                  Have the ideal showtime with your loved ones. Download and
+                  install the extension and log in together. With this useful
+                  gadget, you can watch your favorite movies. Additionally, you
+                  can also chat, audio, and video calls while streaming series.
                 </p>
               </div>
             </div>
@@ -58,17 +57,14 @@ const Favorite = () => {
           </div>
           <div className={styles["bottom-right"]}>
             <div className={styles.headings}>
-              <h2>Craft your perfect party on it</h2>
+              <h2>Create your own party</h2>
             </div>
             <div className={styles.desc}>
               <p>
-                Customize your party with this extension! Pick a creative user
-                icon and unlock awesome features like chat, audio calls, and
-                video calls. Get ready to stream your favorite movies with your
-                loved ones from the comfort of your own space. This extension
-                has top-notch content from your favorite OTT platforms and
-                offers high-quality streaming with fantastic features. Share
-                your laughter, tears, and cheers together.
+                Now, you can create your own party in this extension. It’s just
+                you have to click on the party icon and unlock its features. In
+                this extension, there is a huge variety of top content with
+                high-quality videos and synchronized playback.
               </p>
             </div>
           </div>

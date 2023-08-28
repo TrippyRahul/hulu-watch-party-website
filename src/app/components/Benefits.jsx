@@ -24,10 +24,10 @@ const Benefits = () => {
             </div>
             <div className={styles.desc}>
               <p>
-                This extension lets you watch unlimited shows and movies with
-                friends. You can chat, make video or audio calls, and sync
-                playback.You can also group watch on Hulu and enjoy movie nights
-                and TV marathons together, no matter where you are.
+                It allows you to group watch on Hulu and has unlimited shows and
+                series. Unlock amazing features including chat, audio, and video
+                calls. The best part is no matter where you are, with just a few
+                clicks, you can watch it with your family and friends.
               </p>
             </div>
             <div className={styles.btn}>

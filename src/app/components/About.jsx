@@ -13,21 +13,22 @@ const About = () => {
             </div>
             <div className={styles.desc}>
               <p>
-                This extension offers the best streaming service for its
-                subscribers. It lets you watch movies and TV shows together in
-                real time with your friends and family. You can synchronize your
-                playback and use chat, audio, and video calls to interact and
-                discuss the content while watching from different places. It&apos;s a
-                fun way to enjoy content together, even if you&apos;re far apart.
+                It is a fantastic tool that provides the best services to all
+                its users. In this extension, you will find vast varieties of
+                movies and shows and watch them with your family and friends
+                together. It has features like chatting, audio, and video calls
+                so that you can discuss your favorite scene with them. It is the
+                best way to have a unique experience.
               </p>
               <p>
-                To use it, you need a valid account and to install the browser
-                extension. Once installed, the extension generates a special URL
-                that the host shares with friends or family to invite them to
-                join the party. Once everyone is connected, the host starts the
-                movie or show, and all screens synchronize, so everyone watches
-                the same content at the same time. It&apos;s a seamless and enjoyable
-                way to watch together, no matter how far apart you are.
+                To experience its great features, you just need an account on
+                Hulu and install it on your browser. After installing it, you
+                can generate a URL link and share it with your loved ones. With
+                this link, you can invite them to watch a party. Remember only
+                the host has all the powers to play or pause the video. It also
+                synchronizes playback so that you can watch it together. No
+                matter how far apart you are from your friends, within just a
+                few seconds you can watch a movie with them.
               </p>
             </div>
           </div>

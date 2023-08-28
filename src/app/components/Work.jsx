@@ -10,10 +10,10 @@ const Work = () => {
           <h2 id="work">How to watch this extension on your browser</h2>
 
           <p>
-            Firstly install the extension and activate your valid account and
-            then start exploring your favorite content. You can also share the
-            link with your friends and family to watch movies and series
-            together.
+            Just download and install the extension to your web browser and log
+            in to your Hulu account. Select your favorite content. You can also
+            share the link with your friends and family to watch movies and
+            series together.
           </p>
         </div>
       </div>

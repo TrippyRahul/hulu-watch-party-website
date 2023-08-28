@@ -9,7 +9,7 @@ const questions = [
   {
     id: 1,
     ques: "How to watch your favorite content on this extension?",
-    ans: "It is an extension works by synchronizing the playback of the movie or TV show among multiple viewers, ensuring everyone sees the content simultaneously. Additionally, it offers a chat function and audio and video calls, enabling participants to interact and discuss the content in real time while watching together. This way, viewers can enjoy a shared movie-watching experience and communicate with each other during the show.",
+    ans: "It is a very simple and quick process, it’s just you need to install the extension. It synchronizes the playback and allows you to have incredible features like chat, audio, and video calls. So, without hassle, you can now discuss your favorite part while watching a movie together.",
   },
   {
     id: 2,
@@ -19,12 +19,12 @@ const questions = [
   {
     id: 3,
     ques: "How to watch party on hulu?",
-    ans: "The process is straightforward and easy. To get started, install and activate the extension in your browser. Then, open and choose the content you want to watch. If you prefer, you can create your own watch party and share the unique URL with your friends and family. This way, everyone can synchronize their playback and chat together while enjoying the content simultaneously. It's a simple and convenient way to watch movies and shows with your loved ones, no matter where they are.",
+    ans: "The process is straightforward and easy. Install the extension and log in to your account. Then, open and choose the content you want to watch. If you prefer, you can create your own watch party and share the unique URL with your friends and family. This way, everyone can synchronize their playback and chat together while enjoying the content simultaneously. It's a simple and convenient way to watch movies and shows with your loved ones, no matter where they are.",
   },
   {
     id: 4,
     ques: "How to watch Hulu with friends? ",
-    ans: "To stream with friends, just install the extension and add it to Chrome then activate it. After activating the account you can share the URL line with your friends to synchronize playback and chat while watching a movie.",
+    ans: "To stream with friends, just install the extension add it to Chrome then activate it. After logging in to your account you can share the URL line with your friends to synchronize playback and chat while watching a movie.",
   },
   {
     id: 5,

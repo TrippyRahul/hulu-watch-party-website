@@ -15,13 +15,14 @@ const Hero = () => {
               <div className={styles.text}>
                 <p>
                   Experience the joy of watching your favorite movies and TV
-                  shows with your family and friends using teleparty. You can
-                  invite your Hulu friends and enjoy the entertainment together.
-                  With synchronized playback, you can chat and make audio or
-                  video calls while watching a movie, as if you&apos;re all in
-                  the same room. With the watch party Hulu, you can create fun
-                  memories and share the excitement of watching together, even
-                  if you are far away from each other.
+                  shows with your family and friends using teleparty. Invite
+                  your Hulu friends to stream together. It has fun features like
+                  you can make audio and video calls or even chat in between.
+                  You can also discuss your favorite movie scenes with your
+                  friends and family. With Watch Party Hulu you can create your
+                  own memories and share them while watching a series together.
+                  So, what is bothering you? Open the link and watch it
+                  together.
                 </p>
               </div>
               <div className={styles.btn}>

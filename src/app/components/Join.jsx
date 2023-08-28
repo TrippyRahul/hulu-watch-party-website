@@ -21,7 +21,7 @@ const Join = () => {
                     alt="semi-circle"
                   />
                 </div>
-                <p>Firstly, go to your browser and install the extension</p>
+                <p>Go to your web browser and install the extension</p>
               </div>
             </div>
             <div className={styles.item}>
