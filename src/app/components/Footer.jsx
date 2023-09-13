@@ -30,8 +30,12 @@ const Footer = () => {
         <div className={styles.content}>
           <div className={styles["popular-searches"]}>
             <p>
-              <span>Popular searches:</span> Hulu sharing, Hulu watch together,
-              how to stream Hulu on discord, Hulu Chromecast
+              <span>Popular searches:</span>{" "}
+              <a href="https://www.watchottparty.com/" target="_blank">
+                watchottparty
+              </a>
+              , Hulu sharing, Hulu watch together, how to stream Hulu on
+              discord, Hulu Chromecast
             </p>
           </div>
           <ul>
