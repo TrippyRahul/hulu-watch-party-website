@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/x-icon" href="/brand-logo.png" />
+        <link rel="icon" type="image/x-icon" href="/logo.svg" />
         <link rel="canonical" href="https://www.huluwatchparty.co/" />
         <meta
           name="google-site-verification"
@@ -33,7 +33,7 @@ a fantastic way to binge movies together.."
         />
         <meta
           property="og:image"
-          content="https://www.huluwatchparty.co/brand-logo.png"
+          content="https://www.huluwatchparty.co/logo.svg"
         />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ a fantastic way to binge movies together.."
         />
         <meta
           name="twitter:image"
-          content="https://www.huluwatchparty.co/brand-logo.png"
+          content="https://www.huluwatchparty.co/logo.svg"
         />
       </head>
       <body>

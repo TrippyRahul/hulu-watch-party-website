@@ -1,3 +1,27 @@
+$smaller: 480px;
+$medium: 768px;
+$large: 1024px;
+
+@mixin for-greater-than-smaller {
+  @media (min-width: $smaller) {
+    @content;
+  }
+}
+
+@mixin for-greater-than-medium {
+  @media (min-width: $medium) {
+    @content;
+  }
+}
+
+@mixin for-greater-than-large {
+  @media (min-width: $large) {
+    @content;
+  }
+}
+
+
+
 .benefits{
 
     .container{
@@ -11,7 +35,11 @@
         gap: 10rem;
 
         .left{
-            flex: .5;
+
+            display: none;
+            @include for-greater-than-medium(){
+
+            flex: 1;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -19,7 +47,7 @@
             position: relative;
 
             .image-container {
-                width: 90%;
+                width: 100%;
               
                 > div {
                   position: unset !important;
@@ -32,6 +60,7 @@
                   height: unset !important;
                 }
               }
+            }
         }
 
         .right{
@@ -54,6 +83,7 @@
                         line-height: 5.5rem;
                         letter-spacing: 0em;
                         text-align: left;
+                        color: #90E4BA;
 
                     }
                 }
@@ -82,39 +112,3 @@
 
     }
 }
-
-@media screen and (max-width: 115px) {
-   .benefits{
-    .container{
-        justify-content: center;
-        flex-direction: column;
-        .left{
-           width: 100%;
-        }
-    }
-   }
-  }
-  
-@media screen and (max-width: 768px) {
-   .benefits{
-    .container{
-        justify-content: center;
-        flex-direction: column;
-        .left{
-           
-        }
-    }
-   }
-  }
-  
-  
-
-  @media screen and (max-width: 480px) {
-    .benefits{
-        .container{
-            padding: 4rem;
-
-        }
-       }
-  }
-

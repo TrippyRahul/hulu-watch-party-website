@@ -20,7 +20,7 @@ const Navbar = () => {
             <Link href="/">
               <div className={styles["image-container"]}>
                 <Image
-                  src="/brand-logo.png"
+                  src="/logo.svg"
                   alt="ott-party"
                   fill={true}
                   className={styles["image"]}
@@ -60,7 +60,7 @@ const Navbar = () => {
           <Link href="/">
             <div className={styles["image-container"]}>
               <Image
-                src="/brand-logo.png"
+                src="/logo.svg"
                 alt="ott-party"
                 fill={true}
                 className={styles["image"]}
