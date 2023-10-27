@@ -7,16 +7,6 @@ const Favorite = () => {
     <div className={styles.favorite}>
       <div className={styles.container}>
         <div className={styles.top}>
-          <div className={styles.right}>
-            <div className={styles["image-container"]}>
-              <Image
-                src="/favorite.png"
-                alt="favorite"
-                fill={true}
-                className={styles.image}
-              />
-            </div>
-          </div>
           <div className={styles.left}>
             <div className={styles["left-top"]}>
               <div className={styles.headings}>
@@ -32,9 +22,29 @@ const Favorite = () => {
               </div>
             </div>
           </div>
+          <div className={styles.right}>
+            <div className={styles["image-container"]}>
+              <Image
+                src="/favorite.svg"
+                alt="favorite"
+                fill={true}
+                className={styles.image}
+              />
+            </div>
+          </div>
         </div>
 
         <div className={styles.bottom}>
+          <div className={styles["bottom-left"]}>
+            <div className={styles["image-container"]}>
+              <Image
+                src="/customize.svg"
+                alt="customize"
+                fill={true}
+                className={styles.image}
+              />
+            </div>
+          </div>
           <div className={styles["bottom-right"]}>
             <div className={styles.headings}>
               <h2>Create your own party</h2>
@@ -46,16 +56,6 @@ const Favorite = () => {
                 this extension, there is a huge variety of top content with
                 high-quality videos and synchronized playback.
               </p>
-            </div>
-          </div>
-          <div className={styles["bottom-left"]}>
-            <div className={styles["image-container"]}>
-              <Image
-                src="/customize.svg"
-                alt="customize"
-                fill={true}
-                className={styles.image}
-              />
             </div>
           </div>
         </div>

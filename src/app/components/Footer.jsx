@@ -11,14 +11,14 @@ const Footer = () => {
     <div className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          {/* <div className={styles["image-container"]}>
+          <div className={styles["image-container"]}>
             <Image
               src="/logo.svg"
               alt="ott-party"
               fill={true}
               className={styles["image"]}
             />
-          </div> */}
+          </div>
           <h2>Hullu watch party</h2>
           <p>Stream Your Favorites With this extension</p>
         </div>
