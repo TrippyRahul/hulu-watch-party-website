@@ -41,9 +41,9 @@ const Navbar = () => {
             <Link href="/support">Support</Link>
           </li>
         </ul>
-        <a href="#" className={styles.hideBtn}>
+        <span className={styles.hideBtn}>
           <Button />
-        </a>
+        </span>
 
         <div
           className={`${styles.mobileMenuBtn}  ${isOpen && styles.animate}`}
