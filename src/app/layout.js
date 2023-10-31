@@ -2,6 +2,7 @@ import Schema from "./Schema";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata = {
   title: "Say goodbye to distance and hello to Hulu watch party",
@@ -51,6 +52,18 @@ a fantastic way to binge movies together.."
         <meta
           name="twitter:image"
           content="https://www.huluwatchparty.co/logo.svg"
+        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-QEW2S6CV5X" />
+        <Script
+          id="gtm-script"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-QEW2S6CV5X');
+          `,
+          }}
         />
       </head>
       <body>
